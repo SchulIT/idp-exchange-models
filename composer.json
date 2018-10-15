@@ -1,0 +1,25 @@
+{
+    "name": "schoolit/idp-exchange-models",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Marnitz",
+            "email": "marcelmarnitz@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "jms/serializer": "^1.13",
+        "symfony/validator": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SchoolIT\\IdpExchange\\": "."
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
