@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "jms/serializer": "^1.13",
+        "jms/serializer": "^2.0",
         "symfony/validator": "^4.1"
     },
     "autoload": {
