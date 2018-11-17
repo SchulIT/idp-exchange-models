@@ -30,10 +30,10 @@ class UserResponseBuilder {
 
     /**
      * @param string $name
-     * @param string $value
+     * @param string|null $value
      * @return UserResponseBuilder
      */
-    public function addValueAttribute(string $name, string $value): UserResponseBuilder {
+    public function addValueAttribute(string $name, ?string $value): UserResponseBuilder {
         $attribute = new ValueAttribute();
         $attribute->name = $name;
         $attribute->value = $value;

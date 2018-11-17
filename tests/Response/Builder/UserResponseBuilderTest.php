@@ -28,6 +28,16 @@ class UserResponseBuilderTest extends TestCase {
         $this->assertEquals('value', $response->attributes[0]->value);
     }
 
+    public function testAddNullAttributeValue() {
+        $response = (new UserResponseBuilder())
+            ->addValueAttribute('name', null)
+            ->build();
+
+        $this->assertEquals(1, count($response->attributes));
+        $this->assertEquals('name', $response->attributes[0]->name);
+        $this->assertNull($response->attributes[0]->value);
+    }
+
     public function testAddAttributeValues() {
         $response = (new UserResponseBuilder())
             ->addValuesAttribute('name', ['valueOne', 'valueTwo'])
