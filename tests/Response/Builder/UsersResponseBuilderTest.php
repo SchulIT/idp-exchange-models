@@ -1,6 +1,6 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Response\Builder;
+namespace SchulIT\IdpExchange\Response\Builder;
 
 use PHPUnit\Framework\TestCase;
 

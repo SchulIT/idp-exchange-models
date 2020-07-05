@@ -1,9 +1,9 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Tests\Request\Builder;
+namespace SchulIT\IdpExchange\Tests\Request\Builder;
 
 use PHPUnit\Framework\TestCase;
-use SchoolIT\IdpExchange\Request\Builder\UsersRequestBuilder;
+use SchulIT\IdpExchange\Request\Builder\UsersRequestBuilder;
 
 class UsersRequestBuilderTest extends TestCase {
     public function testAddUser() {

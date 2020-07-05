@@ -1,6 +1,6 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Response;
+namespace SchulIT\IdpExchange\Response;
 
 use JMS\Serializer\Annotation as Serializer;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Response;
+namespace SchulIT\IdpExchange\Response;
 
 use JMS\Serializer\Annotation as Serializer;
 
@@ -9,7 +9,7 @@ use JMS\Serializer\Annotation as Serializer;
  */
 class UsersResponse {
     /**
-     * @Serializer\Type("array<SchoolIT\IdpExchange\Response\UserResponse>")
+     * @Serializer\Type("array<SchulIT\IdpExchange\Response\UserResponse>")
      */
     public $users = [ ];
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Response;
+namespace SchulIT\IdpExchange\Response;
 
 use JMS\Serializer\Annotation as Serializer;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -17,7 +17,7 @@ class UserResponse {
     public $username;
 
     /**
-     * @Serializer\Type("array<SchoolIT\IdpExchange\Response\AbstractAttribute>")
+     * @Serializer\Type("array<SchulIT\IdpExchange\Response\AbstractAttribute>")
      */
     public $attributes = [ ];
 }

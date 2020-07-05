@@ -1,6 +1,6 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Request;
+namespace SchulIT\IdpExchange\Request;
 
 use JMS\Serializer\Annotation as Serializer;
 use Symfony\Component\Validator\Constraints as Assert;

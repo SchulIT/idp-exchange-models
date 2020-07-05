@@ -1,10 +1,10 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Tests\Response\Builder;
+namespace SchulIT\IdpExchange\Tests\Response\Builder;
 
 use PHPUnit\Framework\TestCase;
-use SchoolIT\IdpExchange\Response\Builder\UpdatedUsersResponseBuilder;
-use SchoolIT\IdpExchange\Response\UserUpdateInformation;
+use SchulIT\IdpExchange\Response\Builder\UpdatedUsersResponseBuilder;
+use SchulIT\IdpExchange\Response\UserUpdateInformation;
 
 class UpdatedUsersResponseBuilderTest extends TestCase {
     public function testAddUser() {

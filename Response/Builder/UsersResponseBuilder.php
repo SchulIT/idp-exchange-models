@@ -1,9 +1,9 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Response\Builder;
+namespace SchulIT\IdpExchange\Response\Builder;
 
-use SchoolIT\IdpExchange\Response\UserResponse;
-use SchoolIT\IdpExchange\Response\UsersResponse;
+use SchulIT\IdpExchange\Response\UserResponse;
+use SchulIT\IdpExchange\Response\UsersResponse;
 
 class UsersResponseBuilder {
 

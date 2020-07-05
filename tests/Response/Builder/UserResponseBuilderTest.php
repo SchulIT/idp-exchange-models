@@ -1,11 +1,11 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Tests\Response\Builder;
+namespace SchulIT\IdpExchange\Tests\Response\Builder;
 
 use PHPUnit\Framework\TestCase;
-use SchoolIT\IdpExchange\Response\Builder\UserResponseBuilder;
-use SchoolIT\IdpExchange\Response\ValueAttribute;
-use SchoolIT\IdpExchange\Response\ValuesAttribute;
+use SchulIT\IdpExchange\Response\Builder\UserResponseBuilder;
+use SchulIT\IdpExchange\Response\ValueAttribute;
+use SchulIT\IdpExchange\Response\ValuesAttribute;
 
 class UserResponseBuilderTest extends TestCase {
     public function testSetUsername() {

@@ -1,11 +1,11 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Response\Builder;
+namespace SchulIT\IdpExchange\Response\Builder;
 
-use SchoolIT\IdpExchange\Response\AbstractAttribute;
-use SchoolIT\IdpExchange\Response\UserResponse;
-use SchoolIT\IdpExchange\Response\ValueAttribute;
-use SchoolIT\IdpExchange\Response\ValuesAttribute;
+use SchulIT\IdpExchange\Response\AbstractAttribute;
+use SchulIT\IdpExchange\Response\UserResponse;
+use SchulIT\IdpExchange\Response\ValueAttribute;
+use SchulIT\IdpExchange\Response\ValuesAttribute;
 
 class UserResponseBuilder {
 

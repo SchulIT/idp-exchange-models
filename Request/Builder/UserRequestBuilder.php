@@ -1,8 +1,8 @@
 <?php
 
-namespace SchoolIT\IdpExchange\Request\Builder;
+namespace SchulIT\IdpExchange\Request\Builder;
 
-use SchoolIT\IdpExchange\Request\UserRequest;
+use SchulIT\IdpExchange\Request\UserRequest;
 
 class UserRequestBuilder {
     /**
