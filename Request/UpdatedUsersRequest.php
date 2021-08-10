@@ -19,7 +19,6 @@ class UpdatedUsersRequest {
 
     /**
      * @Serializer\Type("DateTime")
-     * @Assert\DateTime()
      * @Assert\NotNull()
      */
     public $since = null;
